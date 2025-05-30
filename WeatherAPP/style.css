@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f2f4f5;
+
+  height: 100%;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+}
+.btn-search {
+  color: #fff;
+  background-color: #4682b4;
+}
+.btn-location {
+  color: #f7f6f9;
+  background-color: #088f8f;
+}
+.alert-error {
+  color: #fff;
+  background-color: #d02533;
+  padding: 1rem;
+}
+.page-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+.sidebar {
+  background-color: #f7f6f9;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.city-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.city-form label {
+  font-weight: 700;
+}
+
+.city-form input {
+  padding: 0.5rem;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.separator::before,
+.separator::after {
+  flex: 1;
+  content: " ";
+  padding: 0.5px;
+  background-color: #121111;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+}
+
+.weather-panel {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.weather-details {
+  color: #04000b;
+  display: flex;
+
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.weather-details1 {
+  color: #fff;
+  display: flex;
+
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.weather-panel img {
+  width: 80px;
+}
+
+.weather-panel .date {
+  font-weight: 700;
+}
+
+.weather-panel.today {
+  color: #0f0000;
+  background-color: #008080;
+}
+.weather-panel.forecast {
+  color: #04000b;
+  background-color: #f2f4f5;
+}
+.zile {
+  color: #d02533;
+}
+.weather-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+}
+@media screen and (min-width: 760px) {
+  .page-container {
+    grid-template-columns: 360px 1fr;
+    height: 100%;
+    background-color: #d2f0f2;
+  }
+}
