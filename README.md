@@ -9,4 +9,7 @@ Search by city name or current location
 
 Forecast for multiple days
 
+#How to run?
+- Just open index.html in your browser
+
 Used HTML/CSS/JAVASCRIPT
