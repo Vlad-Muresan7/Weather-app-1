@@ -8,3 +8,5 @@ Display current temperature, weather conditions, humidity.
 Search by city name or current location
 
 Forecast for multiple days
+
+Used HTML/CSS/JAVASCRIPT
