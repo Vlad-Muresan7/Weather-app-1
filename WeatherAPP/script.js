@@ -213,7 +213,7 @@ function createWeatherPanel(weather, isToday) {
 
   const wind = document.createElement("p");
 
-  wind.innerText = `Vandt: ${weather.wind} km/h`;
+  wind.innerText = `Vant: ${weather.wind} km/h`;
 
   const humidity = document.createElement("p");
 
